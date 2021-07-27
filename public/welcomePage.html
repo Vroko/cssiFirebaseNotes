@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fire Notes</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+	  <link rel="stylesheet" href="css/writeNote.css">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/8.3.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.3.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.3.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <script src="js/viewNotes.js"></script>
+  </head>
+<body>
+
+    <section class="hero is-fullheight">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <div class="columns is-8 is-variable ">
+
+            <!-- WELCOME HERO -->
+            <div class="column has-text-centered">
+              <h1 class="title is-1">Welcome to FireNotes</h1>
+              <h1 class="title is-3" id="customWelcome">
+                Great things await you
+              </h1>
+              <div class="control">
+                <button class="button is-link is-fullwidth has-text-weight-medium is-medium" onclick="enterFireNotes()">Enter</button>
+              </div>
+            </div>
+
+            
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/welcomePage.js"></script>
+  </body>
+</html>
